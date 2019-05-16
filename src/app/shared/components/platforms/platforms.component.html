@@ -1,0 +1,13 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" [routerLink]="['']">IGBD Demo</a>
+  <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="navbarsExampleDefault" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav" [ngbCollapse]="isCollapsed">
+    <ul class="navbar-nav">
+      <li class="nav-item" *ngFor="let platform of platforms">
+          <a class="nav-link" [routerLink]="['/games-list', platform.id]">{{platform.name}}</a>
+      </li>
+    </ul>
+  </div>
+</nav>
