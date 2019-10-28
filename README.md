@@ -1,12 +1,12 @@
 # AngularPwaIgdbDemo
 
-Small Angular 7 PWA Demo that shows what Angular and PWA's do.
+Small Angular 8 PWA Demo that shows what Angular and PWA's do. 
 
 ## IGDB Api
 
 * You need to register in the api `https://www.igdb.com/users/new`
 * Insert your api token in environment.ts and environment.prod.ts
-* For a production environment you need to setup a reverse proxy server. Here's a tutorial for IIS `https://blogs.msdn.microsoft.com/friis/2016/08/25/setup-iis-with-url-rewrite-as-a-reverse-proxy-for-real-world-apps/`
+* For a production environment you need to setup a reverse proxy server(IGDB limitations). Here's a tutorial for IIS `https://blogs.msdn.microsoft.com/friis/2016/08/25/setup-iis-with-url-rewrite-as-a-reverse-proxy-for-real-world-apps/`
 
 ## Development server
 
